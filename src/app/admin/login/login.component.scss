@@ -1,0 +1,71 @@
+// main classes
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+//strat login classes
+.login-admin{
+    background-image: url(http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 657px;
+    font-family: "Numans", sans-serif;
+    align-content: center;
+    .container{
+        height: 100%;
+        .card{
+            height: 370px;
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 400px;
+            background-color: rgba(0,0,0,0.5) !important;
+            .card-header{
+                color: white;
+                h3{
+
+                }
+            }
+            .card-body{
+                form{
+                    .input-group{
+                        .input-group-prepend{
+                            span{
+                                width: 50px;
+                                background-color: #FFC312;
+                                color: black;
+                                border:0 !important;
+                                }
+                        }
+                    }
+                    .remember{
+                        color: white;
+                        input{
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 15px;
+                            margin-right: 5px;
+                        }
+                    }
+                    .form-group{
+                        .login_btn{
+                            color: black;
+                            background-color: #FFC312;
+                            width: 100px;
+                            &:hover{
+                                color: black;
+                                background-color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            .card-footer{ 
+                a{
+                    margin-left: 4px;
+                    color: white;
+                }
+                
+            }
+        }
+    }
+}
